@@ -1,0 +1,79 @@
+/* bootstrap classes for responsiveness
+col- for less than 576px screens
+col-sm- for >576px and <768px
+col-md- for >768px and <992px
+col-lg- for >992px and <1200px
+col-xl- for >1200px and <1400px
+col-xxl- for >1400px */
+* {
+  margin: 0;
+  padding: 0;
+}
+	
+.text-div {
+  color: red;
+}
+
+.hr-tag {
+  margin: 0;
+  height: 10px;
+  box-shadow: 0 10px 10px -10px #000000 inset;
+}
+
+.hr-tag-footer {
+  margin: 0;
+  width: 100%;
+  box-shadow: 0 10px 10px -10px #000000 inset;
+}
+.navbar-item {
+  color: #000000;
+}
+.navbar-item:hover {
+  color: #f4ac00;
+}
+.navbar-custom {
+  background-color: #fff;
+}
+.hero-container {
+  margin: 0;
+}
+
+.LINK {
+  text-decoration: none;
+}
+
+.LINK:hover {
+  color: #f4ac00;
+}
+.list {
+  list-style: none;
+}
+.topbar-alfatah{
+position: sticky;
+top: 0;
+z-index: 1;
+}
+.navbar-alfatah
+{
+position: sticky;
+top: 45px;
+z-index: 1;
+
+}
+.card-hover-effect:hover .card {
+	transform: scale(1.05);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  .card {
+	transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+.whtsapp-icon{
+	
+	color: rgb(0, 128, 26);
+	position: fixed;
+	bottom: 50px;
+	left:20px;
+	cursor: pointer;
+	font-size: 55px;
+}
